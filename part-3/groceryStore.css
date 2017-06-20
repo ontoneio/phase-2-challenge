@@ -13,28 +13,59 @@
 }
 .space {
   justify-content: space-between;
+  align-items: center;
   padding-left: 2rem;
-  padding-right: 10rem;
+  padding-right: 2.5rem;
 }
+
+/* Shop Section */
+
 div > table {
   width: 100%;
   margin-bottom: 2rem;
 }
+td {
+  padding: .5rem;
+}
 th {
+  padding: .5rem;
   text-align: left;
 }
 tr > button {
   align: right;
 }
+.info {
+  text-align: right;
+  padding-right: 2rem;
+}
 
+/* Nav Section */
+.col h4 {
+  margin: .25rem 1rem;
+}
+.col header {
+  background-color: green;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-border {
+  border: 2px solid black;
+}
 
-
+/* Components */
+button {
+  width: 100px;
+  padding: .5rem
+}
+.sep {
+  border: 1px solid black;
+}
 
 
 
 
 /* UTILITY CLASSES */
-* {
+/* * {
    border: 1px solid red !important;
-}
+} */
  

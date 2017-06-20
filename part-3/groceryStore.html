@@ -4,54 +4,103 @@
     <title>Grocery Store Page</title>
   <link rel="stylesheet" href="groceryStore.css" type="text/css">
   </head>
-  <body>
-  <header class="flex-container space">
+    <body>
+  <header class="flex-container space sep">
 
-    <h2>Grocer Name</h2>
-    <button type="button" name="cart">Cart</button>
-
+  <h2>Grocer Name</h2>
+  <div>
+  <button type="button" name="cart">Cart</button>
+  </div>
   </header>
 
   <div class="flex-container">
 
-    <div class="col">
-        <a><h4>Sections</h4></a>
-        <a><h4>Produce</h4></a>
-        <a><h4>Deli</h4></a>
-        <a><h4>Frozen</h4></a>
+  <div class="col nav-border">
+    <header><h4>Sections</h4></header>
+    <a href="#produce-sec"><h4>Produce</h4></a>
+    <a href="#deli-sec"><h4>Deli</h4></a>
+    <a href="#frozen-sec"><h4>Frozen</h4></a>
 
-    </div>  <!-- NAV BOX -->
+  </div>  <!-- NAV BOX -->
 
-    <div class="col shop">
-      <div class="">
-        <h1>Groceries</h1>
-      </div>
+  <div class="col shop">
+  <div class="">
+    <h1>Groceries</h1>
+  </div>
 
-      <div class="row">
-        <table>
-          <th>Produce</th>
-          <tbody>
-            <tr>
-            <td>Item-name</td>
-            <td>$3.44</td>
-            <td><button type="button" name="addToCart">Add To Cart</button></td>
-            </tr>
-            <tr>
-            <td>Item-name</td>
-            <td>$3.44</td>
-            <td><button type="button" name="addToCart">Add To Cart</button></td>
-            </tr>
-            <tr>
-            <td>Item-name</td>
-            <td>$3.44</td>
-            <td><button type="button" name="addToCart">Add To Cart</button></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>  <!-- SECTION WRAPPER  -->
+  <div id="produce-sec" class="row">
+    <table>
+      <th>Produce</th>
+      <tbody>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  <!-- SECTION WRAPPER  -->
 
-    </div>  <!-- SHOP BOX -->
+  <div id="deli-sec" class="row">
+    <table>
+      <th>Deli</th>
+      <tbody>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  <!-- SECTION WRAPPER  -->
+
+  <div id="frozen-sec" class="row">
+    <table>
+      <th>Frozen</th>
+      <tbody>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+        <tr>
+        <td>Item-name</td>
+        <td class="info">$3.44</td>
+        <td class="info"><button type="button" name="addToCart">Add To Cart</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  <!-- SECTION WRAPPER  -->
+
+  </div>  <!-- SHOP BOX -->
 
   </div>   <!-- BODY WRAPPER  -->
-</body>
+  </body>
+
+
 </html>
