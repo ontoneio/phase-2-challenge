@@ -1,0 +1,40 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10rem;
+}
+.flex-container > .col {
+  flex-direction: column;
+  flex-grow: 1;
+}
+.flex-container > .shop {
+  flex-grow: 4;
+  margin-left: 2rem;
+}
+.space {
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 10rem;
+}
+div > table {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+th {
+  text-align: left;
+}
+tr > button {
+  align: right;
+}
+
+
+
+
+
+
+
+/* UTILITY CLASSES */
+* {
+   border: 1px solid red !important;
+}
+ 
