@@ -70,3 +70,10 @@ var wk = module.exports = {}
       }
   console.log("The date is " + day + " " + monthName + " " + year)
 }
+
+wk.snippet = function (string, maxlength) {
+  // let strSize = string.length;
+  let short = string.substring(0, maxlength)
+
+  console.log(short + "...");
+}
