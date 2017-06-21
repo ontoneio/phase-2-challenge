@@ -70,3 +70,20 @@ var wk = module.exports = {}
       }
   console.log("The date is " + day + " " + monthName + " " + year)
 }
+
+wk.snippet = function (string, maxlength) {
+  let short = string.substring(0, maxlength)
+  console.log(short + "...");
+}
+
+wk.numProps = function (obj) {
+  propNames = Object.getOwnPropertyNames(obj)
+  num = propNames.length
+  console.log(propNames + " are " + num + " properties.");
+}
+
+wk.filterBetween = function (array, min, max) {
+  minimum = array.indexOf(min)
+  maximum = array.indexOf(max)
+  console.log(array.slice(min - 1, max))
+  }
