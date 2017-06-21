@@ -1,3 +1,3 @@
-var wk = require('./functions')
+var fun = require('./functions')
 
-wk.weekday()
+fun.findDayName (1987, 0, 01)
