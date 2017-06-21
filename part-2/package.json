@@ -1,0 +1,9 @@
+{
+    "name": "Search by Name",
+    "version": "0.0.1",
+    "description": "Phase-2 Part 2 test",
+    "preferGlobal": "true",
+    "bin": { "searchByName": "searchByName.js" },
+    "author": "Jonathan A. Mitchell",
+    "engines": { "node": "*" }
+}
